@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3E08E08221A4B4EC00362313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E08E08121A4B4EC00362313 /* AppDelegate.swift */; };
-		3E08E08421A4B4EC00362313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E08E08321A4B4EC00362313 /* ViewController.swift */; };
+		3E08E08421A4B4EC00362313 /* TeamsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E08E08321A4B4EC00362313 /* TeamsListViewController.swift */; };
 		3E08E08721A4B4EC00362313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E08E08521A4B4EC00362313 /* Main.storyboard */; };
 		3E08E08921A4B4EC00362313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E08E08821A4B4EC00362313 /* Assets.xcassets */; };
 		3E08E08C21A4B4EC00362313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E08E08A21A4B4EC00362313 /* LaunchScreen.storyboard */; };
+		3E52776521A4C2D300D69E09 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52776421A4C2D300D69E09 /* TeamViewController.swift */; };
+		3E52776721A4C5C800D69E09 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E52776621A4C5C800D69E09 /* Team.swift */; };
+		48D9B5783E49A5FC5083A23A /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F065A834D8FFC6BD97F50CC /* Pods_Hackathon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0960C7E9FA32DF0BD1402220 /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
+		227B969587481C90D4058422 /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		3E08E07E21A4B4EC00362313 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E08E08121A4B4EC00362313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E08E08321A4B4EC00362313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E08E08321A4B4EC00362313 /* TeamsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListViewController.swift; sourceTree = "<group>"; };
 		3E08E08621A4B4EC00362313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E08E08821A4B4EC00362313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E08E08B21A4B4EC00362313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E08E08D21A4B4EC00362313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E52776421A4C2D300D69E09 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		3E52776621A4C5C800D69E09 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6F065A834D8FFC6BD97F50CC /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D9B5783E49A5FC5083A23A /* Pods_Hackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B62D1DAC72C81A32FECBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F065A834D8FFC6BD97F50CC /* Pods_Hackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E08E07521A4B4EC00362313 = {
 			isa = PBXGroup;
 			children = (
 				3E08E08021A4B4EC00362313 /* Hackathon */,
 				3E08E07F21A4B4EC00362313 /* Products */,
+				EC378517685666241F45576F /* Pods */,
+				35B62D1DAC72C81A32FECBFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				3E08E08121A4B4EC00362313 /* AppDelegate.swift */,
-				3E08E08321A4B4EC00362313 /* ViewController.swift */,
+				3E52776621A4C5C800D69E09 /* Team.swift */,
+				3E08E08321A4B4EC00362313 /* TeamsListViewController.swift */,
+				3E52776421A4C2D300D69E09 /* TeamViewController.swift */,
 				3E08E08521A4B4EC00362313 /* Main.storyboard */,
 				3E08E08821A4B4EC00362313 /* Assets.xcassets */,
 				3E08E08A21A4B4EC00362313 /* LaunchScreen.storyboard */,
 				3E08E08D21A4B4EC00362313 /* Info.plist */,
 			);
 			path = Hackathon;
+			sourceTree = "<group>";
+		};
+		EC378517685666241F45576F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227B969587481C90D4058422 /* Pods-Hackathon.debug.xcconfig */,
+				0960C7E9FA32DF0BD1402220 /* Pods-Hackathon.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E08E09021A4B4EC00362313 /* Build configuration list for PBXNativeTarget "Hackathon" */;
 			buildPhases = (
+				3A5CC792D582AB4D1722F6A6 /* [CP] Check Pods Manifest.lock */,
 				3E08E07A21A4B4EC00362313 /* Sources */,
 				3E08E07B21A4B4EC00362313 /* Frameworks */,
 				3E08E07C21A4B4EC00362313 /* Resources */,
+				17B958CA7CB8460F82A8CC8C /* [CP] Embed Pods Frameworks */,
+				0BA556312F2A42EEDA5CD23C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +163,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BA556312F2A42EEDA5CD23C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17B958CA7CB8460F82A8CC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A5CC792D582AB4D1722F6A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E08E07A21A4B4EC00362313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E08E08421A4B4EC00362313 /* ViewController.swift in Sources */,
+				3E52776721A4C5C800D69E09 /* Team.swift in Sources */,
+				3E08E08421A4B4EC00362313 /* TeamsListViewController.swift in Sources */,
+				3E52776521A4C2D300D69E09 /* TeamViewController.swift in Sources */,
 				3E08E08221A4B4EC00362313 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +424,7 @@
 		};
 		3E08E09121A4B4EC00362313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227B969587481C90D4058422 /* Pods-Hackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +443,7 @@
 		};
 		3E08E09221A4B4EC00362313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0960C7E9FA32DF0BD1402220 /* Pods-Hackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
